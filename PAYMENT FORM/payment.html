@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karan Bank</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header align="center"><h1>PAYMENT FORM</h1></header>
+    <form action="mailto:karankumarsonkaria@gmail.com">
+        <fieldset>
+        <legend><H4>USER DETAILS</H4></legend>
+        <p>NAME :<input type="text" placeholder="Karan Kumar" ></p>
+        <p>GENDER : 
+            Male<input type="radio" name="gender">
+            Female <input type="radio" name="gender">
+        </p>
+        <p>ADDRESS : <input type="textarea" name="address"></p>
+        <p>EMAIL : <input type="email" placeholder="xyz@gmail.com"></p><br>
+    </fieldset>
+        <fieldset>
+        <legend>
+        <h4>PERSONAL DETAILS</h4>
+        </legend>
+        <p>Card Type :
+            <select name="cardtype" id="">
+                <option value="select">--Select A Card--</option>
+                <option value="debit">Debit Card</option>
+                <option value="credit">Credit Card</option>
+                <option value="None / Cash Payment">None / Cash</option>
+
+            </select>
+        </p>
+        <p>Card Number :
+            <input type="number">
+        </p>
+        <p>Expiry Date :
+            <input type="date" placeholder="dd/mm/yyyy">
+        </p>
+        <p>CVV :
+            <input type="number" placeholder="XXXX">
+        </p>
+    </fieldset>
+        <p>Attach your AADHAR card:
+            <input type="file" name="aadhar" id="">
+        </p>
+        <center><p><input type="submit" value="SUBMIT"> <input type="reset"> </p></center>
+    </form>
+</body>
+</html>

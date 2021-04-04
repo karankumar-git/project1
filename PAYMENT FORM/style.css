@@ -1,0 +1,32 @@
+body{
+    font-family: 'Karla', sans-serif;
+    background-color:#212121;
+}
+h1{
+    align-items: center;
+    color: #bdbdbdb6;
+    display: inline;
+    font-size: 55px;
+    padding: 20 30 20 30;
+    
+    
+}
+h4{
+    font-size: 40px;
+}
+    
+form{
+    font-family: 'Karla', sans-serif;
+    background-color:#757575;
+    box-shadow: #BDBDBD 10px 10px 10px;
+
+}
+form{
+    border-radius: 20px;
+    border-left-style: solid 10px ;
+    padding:1% 4% 2% 4%;
+    margin: 30px 10% 0% 10%;
+    color:#ffffff;
+    margin-bottom: 50px;
+}
+
